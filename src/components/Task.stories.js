@@ -27,6 +27,15 @@ Default2.args = {
   },
 };
 
+export const Default3 = Template.bind({});
+Default3.args = {
+  task: {
+    id: "1",
+    title: "Test Task",
+    state: "TASK_INBOX",
+  },
+};
+
 export const Pinned = Template.bind({});
 Pinned.args = {
   task: {
