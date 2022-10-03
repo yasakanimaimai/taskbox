@@ -17,6 +17,7 @@ Default.args = {
     state: "TASK_INBOX",
   },
 };
+
 export const Default2 = Template.bind({});
 Default2.args = {
   task: {
